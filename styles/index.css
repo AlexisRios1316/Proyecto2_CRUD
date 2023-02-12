@@ -1,0 +1,62 @@
+/* GENERALES */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+  background-image: url(../assets/login.jpg);
+  background-position: center;
+background-position: center;
+background-size:cover;
+background-position: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: inline-block;
+ 
+  
+}
+/* LOGIN */
+.conteiner-login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner-login > form {
+  background-color: rgba(240, 248, 255, 0.675);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+/* IMAGEN */
+.login-img {
+  margin-top: -100px;
+  margin-bottom: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login-img img {
+  width: 130px;
+  height: 120px;
+}
+.Placeholder{
+  border-style: none;
+  background-color: rgba(240, 248, 255, 0.662);;
+  font-family: 'Raleway', sans-serif;
+}
+.btnInicio {
+  background-color: #a0f6e8; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
